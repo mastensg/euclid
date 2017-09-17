@@ -1,3 +1,5 @@
+![screenshot](https://cdn.rawgit.com/mastensg/euclid/042fd727/screenshot.png)
+
 euclid
 ======
 
