@@ -1,0 +1,16 @@
+#!/bin/sh
+
+R=`xrandr -q | awk -F'current' -F',' 'NR==1 {gsub("( |current)","");print $2}'`
+
+W=$1
+H=$2
+
+if [ "$W"x$H != $R ]
+then
+xrandr -s "$W"x$H || exit
+sleep 4
+./euclid $W $H
+xrandr -s $R
+else
+./euclid $W $H
+fi

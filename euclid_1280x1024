@@ -1,0 +1,5 @@
+#!/bin/sh
+
+RES=`echo $0 | cut -d_ -f2 | tr x ' '`
+
+./euclid_with_resolution $RES

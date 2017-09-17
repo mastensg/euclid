@@ -1,0 +1,9 @@
+AC_INIT(euclid, 1.0.3)
+AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+
+AC_PROG_CC
+AM_PROG_CC_C_O
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+
+AC_OUTPUT(Makefile)
