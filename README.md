@@ -29,3 +29,10 @@ credits
 
 - code and "graphics": mastensg
 - music: bobby spice
+
+behind the scenes
+-----------------
+
+we met one week before the party, and made a storyboard together:
+
+![storyboard](https://cdn.rawgit.com/mastensg/euclid/042fd727/storyboard.png)
